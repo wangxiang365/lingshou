@@ -1,0 +1,194 @@
+.box{
+  /*background: #f3f4f8;
+  height: 100%;*/
+}
+.CupponChoose-list span.vux-popup-picker-placeholder{
+  color: #fc536a;
+}
+.PreferentialPayMes{
+  background: #f1f1f1;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: -o-box;
+  box-align: center;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-box-align: center;
+  padding: .29rem .44rem;
+  font-size: #353535;
+  font-size:.3rem;
+  font-weight: bold;
+}
+.PreferentialPayMes img{
+  width:1rem;
+  height:1rem;
+  border-radius: 50%;
+  display: block;
+  margin-right:.26rem;
+}
+.PreferentialPayMes div{
+  box-flex: 1;
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -ms-box-flex: 1;
+  -o-box-flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+
+.ConsumptionNum{
+  border-bottom:.13rem solid #f3f4f8;
+  background: #fff;
+  padding:.26rem .31rem;
+}
+.ConsumptionNum div{
+  width: 100%;
+  height:.78rem;
+  border: 1px solid #cbcbcb;
+  border-radius:.14rem;
+  -webkit-border-radius:.14rem;
+  display: box;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: -o-box;
+  box-align: center;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-box-align: center
+}
+.ConsumptionNum div span{
+  font-size:.3rem;
+  color:#353535;
+  margin-left:.19rem;
+  margin-right:.2rem;
+}
+.ConsumptionNum div input{
+  height:.78rem;
+  box-flex: 1;
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -ms-box-flex: 1;
+  -o-box-flex: 1;
+  text-align: right;
+  padding-right:.26rem;
+  color: #fc536a;
+  font-size:.3rem;
+  display: block;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+
+
+.CupponChoose{
+  height: 100%;
+  overflow: hidden;
+  padding-left:.35rem;
+  border-bottom:.11rem solid #f3f4f8;
+  background: #fff;
+}
+.CupponChoose-list{
+  height:1.02rem;
+  line-height: 1.02rem;
+  border-bottom: 1px solid #eeeeee;
+  display: box;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: -o-box;
+  vertical-align: middle;
+  padding-right:.34rem;
+  font-size: .28rem;
+}
+.CupponChoose-list:last-child{
+  border-bottom: no;
+}
+.CupponChoose-list img{
+  width:.26rem;
+  height:.26rem;
+/*  vertical-align: middle;*/
+  margin-left:.29rem;
+}
+.CupponChoose-list div:nth-child(2) {
+  box-flex: 1;
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -ms-box-flex: 1;
+  -o-box-flex: 1;
+  text-align: right;
+  color: #fc536a;
+}
+.PayWay{
+  color: #353535;
+}
+
+.AmountPaid{
+  height: 1.07rem;
+  line-height: 1.07rem;
+  background: #fff;
+  padding: 0 .35rem;
+  display: box;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: -o-box;
+}
+.AmountPaid span{
+  display: block;
+  color: #fc536a;
+  font-size:.3rem;
+}
+.AmountPaid span:nth-child(1){
+  box-flex: 1;
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -ms-box-flex: 1;
+  -o-box-flex: 1;
+  color: #353535;
+}
+
+#GoPay{
+  width: 90%;
+  border: none;
+  background: #06c1ac;
+  color: #fff;
+  margin: 0 auto;
+  margin-top:.8rem;
+  text-align: center;
+  line-height: .9rem;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  font-size: .3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

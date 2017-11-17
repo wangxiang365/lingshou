@@ -1,0 +1,11 @@
+export const CurrentCity = 'CurrentCity'//当前城市
+export const pageIndex = 'pageIndex'//当前页数
+export const totalPage = 'totalPage'//总页数
+/*export const Area = 'Area'//当前地区
+export const Distance = 'Distance'//当前距离*/
+export const longitude = 'longitude'//经度
+export const latitude = 'latitude'//维度
+export const NavDropTap = 'NavDropTap'//商区、分类、排序下拉点击
+export const SceenTap = 'SceenTap'//筛选点击
+export const BussinessList = 'BussinessList'//商家列表
+export const NoDatas = 'NoDatas'//暂无数据

@@ -1,0 +1,150 @@
+
+/* 用户基本信息 */
+
+.container .header {
+  background-color: #06c1ac;
+  position: relative;
+  height: 2.52rem;
+  display: -webkit-box;
+  -webkit-box-align: center;
+}
+
+.container .header .tool {
+  position: absolute;
+  top: 0;
+  right:.36rem;
+}
+
+.container .header .tool img {
+  width:.47rem;
+  height:.45rem;
+  margin-left:.48rem;
+}
+
+.container .header > img {
+  width: 1.52rem;
+  height:1.52rem;
+  border-radius:100%;
+  margin-left:.35rem;
+  background: #eee;
+}
+
+.container .header > span {
+  font-size:.36rem;
+  display: block;
+  color: #fff;
+  margin-left:.25rem;
+}
+.UserMes{
+  font-size:.36rem;
+  display: block;
+  color: #fff;
+  margin-left:.25rem;
+}
+.UserMes div{
+  font-size:.26rem;
+  margin-top:.15rem;
+}
+/* 功能按钮 */
+.container .tool {
+  height: 1.67rem;
+  display: -webkit-box;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  text-align: center;
+}
+
+/*
+.container .tool div {
+  -webkit-box-flex: 1;
+}
+
+.container .tool div img {
+  height: .44rem;
+  width: .44rem;
+}
+
+.container .tool div:nth-child(4) img {
+  width:.45rem;
+}
+
+.container .tool div:last-child img {
+  width: .33rem;
+}
+
+.container .tool span {
+  display: block;
+  font-size:.24rem;
+  color: #353535;
+  margin-top:.15rem;
+}
+*/
+
+
+
+
+/* 其他相关 */
+
+.container .other div{
+  height:1rem;
+  display: -webkit-box;
+  -webkit-box-align: center;
+  border-bottom: 1px solid #eee;
+  position: relative;
+}
+.container .other div a{
+  width: 100%;
+  height:1rem;
+  display: -webkit-box;
+  -webkit-box-align: center;
+  border-bottom: 1px solid #eee;
+  position: relative;
+}
+
+.container .other div img {
+  width:.47rem ;
+  height:.47rem;
+  margin-left:.35rem;
+  vertical-align: middle;
+}
+
+.container .other div span {
+  display: block;
+  font-size:.3rem;
+  color: #353535;
+  margin-left:.22rem;
+  vertical-align: middle;
+}
+
+.container .other div span::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width:.12rem;
+  height:.2rem;
+  background: url(http://img.yunchuang365.com/miniAppImg/openShop.png) no-repeat;
+  background-size: 100% 100%;
+  right:.35rem;
+  top:.4rem;
+}
+
+#SetUser div{
+  width:1rem;
+  height:1rem;
+  text-align: center;
+  line-height:1rem;
+}
+#SetUser div::before{
+  content: "";
+  height:0;
+}
+/*
+#SetUser div img{
+  vertical-align: middle;
+  margin-left: 0;
+  width:.47rem;
+  height:.45rem;
+}
+*/
+
+

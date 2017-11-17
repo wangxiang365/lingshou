@@ -1,0 +1,46 @@
+.vux-slider > .vux-swiper > .vux-swiper-item{
+  overflow-y: auto;
+}
+.CuponBar{
+  width: 7.5rem;
+  height:.89rem;
+  border-bottom: 1px solid #c3c3c3;
+  display: box;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: -o-box;
+  padding-bottom: 3rpx;
+  position: fixed;
+  top:.9rem;
+  background: #fff;
+  padding-bottom: .03rem;
+  z-index: 300;
+}
+.CuponBar div{
+  box-flex: 1;
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -ms-box-flex: 1;
+  -o-box-flex: 1;
+  text-align: center;
+  height: .89rem;
+  line-height:.89rem;
+}
+.CuponBar .active{
+  color: #04c1ad;
+  border-bottom: .04rem solid #04c1ad;
+}
+/*******内容******/
+
+
+
+
+
+
+
+
+
+
+
+

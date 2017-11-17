@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+body{
+  width:7.5rem;
+  min-width:320px;
+  max-width:768px;
+  margin:0 auto;
+  background:#fff;
+  font-size: .3rem;
+  -webkit-text-size-adjust: 100%!important;
+  color:#353535;
+}
+.NoData{
+  text-align: center;
+  margin-top: 30%;
+}

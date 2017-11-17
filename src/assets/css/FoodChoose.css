@@ -1,0 +1,825 @@
+/*********input type number 的默认上下箭头********/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none !important;
+  margin: 0;
+}
+.RetailShopBan {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background: #06c1ac;
+  padding: .6rem .28rem;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  display: box;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: -o-box;
+  box-align: center;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-box-align: center;
+  height: 2.93rem;
+  font-size: .28rem;
+}
+
+.RetailShopBan_l {
+  width: 1.38rem;
+  height:1.38rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  margin-right:.25rem;
+  border: 2px solid #fff;
+}
+
+.RetailShopBan_l img {
+  width: 1.38rem;
+  height:1.38rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+
+.RetailShopBan_r {
+  box-flex: 1;
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -ms-box-flex: 1;
+  -o-box-flex: 1;
+  color: #fff;
+}
+
+.RetailShopBan_r_tit {
+  font-weight: bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.RetailShopBan_r_m {
+  margin-top:.2rem;
+  margin-bottom:.2rem;
+  line-height:.35rem;
+}
+
+.RetailShopBan_r_m span:not(:last-child):after {
+  content: "|";
+  margin-left:.1rem;
+}
+
+.RetailShopBan_r_sm {
+  line-height:.35rem;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-clamp: 2;
+  -webkit-line-clamp: 2;
+  -moz-line-clamp: 2;
+  -ms-line-clamp: 2;
+  -o-line-clamp: 2;
+  box-orient: vertical;
+  -webkit-box-orient: vertical;
+  -ms-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -ms-box-orient: vertical;
+  -o-box-orient: vertical;
+}
+
+/**************Nav*************/
+
+.ComonlNav {
+  width: 100%;
+  max-width: 7.5rem;
+  height: .95rem;
+  border-bottom: 1px solid #d4d4d4;
+  background: #fff;
+  position: relative;
+  z-index: 30;
+}
+
+.ComonlNav .UlBar {
+  display: box;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: -o-box;
+  height:.95rem;
+}
+
+.ComonlNav .UlBar div {
+  line-height:.95rem;
+  box-flex: 1;
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -ms-box-flex: 1;
+  -o-box-flex: 1;
+  text-align: center;
+  font-family: "微软雅黑";
+  font-size:.3rem;
+}
+
+.ComonlNav .UlBar div.active {
+  color: #06c1ac;
+  border-bottom: .04rem solid #06c1ac;
+}
+/*********内容*********/
+.ShopBox {
+  width: 7.5rem;
+  position: absolute;
+  top: 4.78rem;
+  bottom:.97rem;
+  background: #fff;
+  overflow-y: auto;
+}
+.RetailShopGoods_l, .RetailShopGoods_l_ul {
+  width: 1.76rem;
+  background: #f3f4f8;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  overflow-y: auto;
+  left: 0;
+  font-size:.3rem;
+  margin-right:.15rem;
+}
+.RetailShopGoods_l_ul li {
+  width: 100%;
+  height: 1rem;
+  line-height:1rem;
+  text-align: center;
+  color: #353535;
+  font-family: "微软雅黑";
+  cursor: pointer;
+  border-left: .06rem solid transparent;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.RetailShopGoods_l_ul li span {
+  display: block;
+  height: 1rem;
+  width: 1.34rem;
+  margin-left:.2rem;
+  border-bottom: 1px solid #d1d1d1;
+}
+
+.RetailShopGoods_l_ul li span.Active {
+  border-bottom: none;
+}
+
+.RetailShopGoods_l_ul li.active {
+  color: #353535;
+  border-left: .06rem solid #06c1ac;
+  border-bottom: none;
+  background: #fff;
+  /*font-weight: bold;*/
+}
+
+.RetailShopGoods_r .Title{
+  font-size:.24rem;
+  color:#353535;
+  line-height:.4rem;
+  background:#f3f4f8;
+  padding-left:.22rem;
+  margin-bottom:.2rem;
+}
+.RetailShopGoods_r {
+  width: 5.51rem;
+  background: #fff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  overflow-y: auto;
+  font-size:.3rem;
+  right: 0;
+}
+
+
+.RetailShopGoods_r ul li{
+  display: box;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: -o-box;
+  padding:.24rem .1rem .24rem .1rem;
+  border-bottom:1px solid #dddddd;
+}
+.RetailShopGoods_r_l{
+  width:1.2rem;
+  height:1.2rem;
+  margin-right:.12rem;
+}
+.RetailShopGoods_r_l img{
+  width:1.2rem;
+  height:1.2rem;
+}
+.RetailShopGoods_r_r{
+  box-flex: 1;
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -ms-box-flex: 1;
+  -o-box-flex: 1;
+  position:relative;
+}
+.RetailShopGoods_r_r .RetailShopGoods_r_rTit{
+  color:#353535;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  font-size: .28rem;
+}
+.RetailShopGoods_r_r .RetailShopGoods_r_rNum{
+  color:#989898;
+  font-size:.24rem;
+  margin:.15rem 0 .15rem 0;
+}
+.RetailShopGoods_r_r .RetailShopGoods_r_rMoney{
+  color:#eb3333;
+  font-size:.26rem;
+}
+
+.C_mid_count_control{
+  height:.5rem;
+  position: absolute;
+  bottom: .1rem;
+  right: .23rem;
+}
+.ChoseSpec{
+  width:1.35rem;
+  height:.55rem;
+  background:#06c1ac;
+  border-radius:40px;
+  -webkit-border-radius:40px;
+  text-align:center;
+  line-height:.55rem;
+  color:#fff;
+  font-size:.24rem;
+  position: absolute;
+  bottom: .1rem;
+  right: .1rem;
+}
+
+.C_mid_count_control .decrease,.C_mid_count_control .decrease img{
+  width:.45rem;
+  height:.45rem;
+  float:left;
+}
+.C_mid_count_control .num{
+  width:.72rem;
+  height:.5rem;
+  border:none;
+  text-align:center;
+  font-size:.3rem;
+  float:left;
+  background:none;
+  outline: none;
+}
+.C_mid_count_control .increase,.C_mid_count_control .increase img{
+  width:.45rem;
+  height:.45rem;
+}
+
+
+
+.BotCart{
+  width:7.5rem;
+  height:.97rem;
+  border-top:1px solid #dadada;
+  position:fixed;
+  bottom:0;
+  background:#fff;
+  display: box;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: -o-box;
+  z-index:300;
+}
+
+.CartIcon{
+  width:1rem;
+  height:1rem;
+  border-radius:50%;
+  -webkit-border-radius:50%;
+  background:#b8b8b8;
+  margin-top:-.46rem;
+  margin-left:.31rem;
+  margin-right:.31rem;
+  text-align:center;
+  line-height:1rem;
+  position:relative;
+}
+.CartIcon img{
+  width:.54rem;
+  height:.53rem;
+  vertical-align:middle;
+}
+.CartNum {
+  position: absolute;
+  right: -2px;
+  top: -2px;
+  line-height: 1;
+  background-color: #f4b233;
+  color: #fff;
+  border-radius: .32rem;
+  padding: .053333rem .133333rem;
+  font-size: .2rem;
+}
+.CartIconSelect{
+  background:#06c1ac;
+}
+
+
+.BotCart_num{
+  box-flex: 1;
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -ms-box-flex: 1;
+  -o-box-flex: 1;
+}
+.BotCart_num div:nth-child(1){
+  color:#eb3333;
+  font-size:.28rem;
+  margin-top:.15rem;
+  margin-bottom:3px;
+}
+.BotCart_num div:nth-child(2){
+  color:#929292;
+  font-size:.24rem;
+}
+
+
+.BotCart_pay{
+  width:2.45rem;
+  background:#b8b8b8;
+  text-align:center;
+  line-height:1rem;
+  color:#fff;
+}
+.BotCart_paySelet{
+  background:#f4b233;
+}
+
+
+.SpecificationsBox{
+  width:6.87rem;
+  overflow:hidden;
+  background:#fff;
+  border-radius:8px;
+  -webkit-border-radius:8px;
+  position:fixed;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  margin:auto;
+  max-height:5rem;
+  z-index:3001;
+  padding:0 .49rem 0 .49rem;
+  box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+}
+
+.SpecificationsBox_tit{
+  height:1rem;
+  line-height:1rem;
+  text-align:center;
+}
+.SpecificationsBox_lis{
+  height:2.9rem;
+  overflow:auto;
+}
+.SpecificationsBox_lis h1{
+  font-size:.3rem;
+  margin-bottom:.15rem;
+}
+.SpecificationsBox_lis .SpecificationsBox_lis_list div{
+  float:left;
+  min-width:1.79rem;
+  line-height:.65rem;
+  height:.65rem;
+  border:1px solid #c4c4c4;
+  padding:0 10px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  text-align:center;
+  margin-right:.3rem;
+  margin-bottom:.2rem;
+  box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+}
+.SpecificationsBox_lis_list div.act{
+  background:#06c1ac;
+  color:#fff;
+  border:none;
+}
+
+
+.SpecificationsBox_b{
+  height:1.1rem;
+  display: box;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: -o-box;
+  box-align: center;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-box-align: center;
+
+}
+.SpecificationsBox_b_prie{
+  box-flex: 1;
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -ms-box-flex: 1;
+  -o-box-flex: 1;
+}
+.SpecificationsBox_b .C_mid_count_control{
+  position:relative;
+  bottom:0;
+  right:0;
+}
+
+.SpecificationsBoxBg{
+  width: 7.5rem;
+  height: auto;
+  background: rgba(0,0,0,0.5);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  z-index: 3000;
+  display: block;
+  left:0;
+}
+
+.CartSelet{
+  position:fixed;
+  bottom:.97rem;
+  background:#fff;
+  width:7.5rem;
+  padding:0 .31rem 0 .31rem;
+  box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  transition: all .2s;
+  -webkit-transition: all .2s linear 0s;
+  -moz-transition: all .2s linear 0s;
+  -ms-transition: all .2s linear 0s;
+  -o-transition: all .2s linear 0s;
+  -webkit-transform: translate3d(0, 150%, 0);
+  -moz-transform: translate3d(0, 150%, 0);
+  -ms-transform: translate3d(0, 150%, 0);
+  -o-transform: translate3d(0, 150%, 0);
+  transform: translate3d(0, 150%, 0);
+  z-index:260;
+}
+.SlideUps {
+  -webkit-transform: translate3d(0, 1, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 1, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.CartSelet_tit{
+  height:.89rem;
+  line-height:.89rem;
+  border-bottom:1px solid #d9d9d9;
+  text-align:right;
+  color:#929292;
+  font-size:.24rem;
+}
+.CartSelet_tit img{
+  width:.31rem;
+  height:.36rem;
+  vertical-align:sub;
+  margin-right:.1rem;
+}
+
+.CartSelet ul{
+  max-height:6.13rem;
+  overflow:auto;
+}
+
+.CartSelet ul li{
+  display: box;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: -o-box;
+  height:1.3rem;
+  box-align: center;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-box-align: center;
+  border-bottom:1px solid #d9d9d9;
+}
+.CartSelet ul li .CartSelet_l{
+  width:3rem;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+.CartSelet ul li .CartSelet_m{
+  box-flex: 1;
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -ms-box-flex: 1;
+  -o-box-flex: 1;
+}
+
+.CartSelet .C_mid_count_control{
+  position:relative;
+  right:0;
+}
+
+.CartBg{
+  width: 7.5rem;
+  height: auto;
+  background: rgba(0,0,0,0.5);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  z-index: 250;
+  display:none;
+}
+.CartBgShow{
+  display:block;
+}
+/**************评价***************/
+.RetailShopEvaluate{
+  position: absolute;
+  top: 0;
+  right:0;
+  bottom: 0;
+  overflow-y: auto;
+  left: 0;
+  font-size: .3rem;
+}
+.BusinessList{
+  height:auto;
+  overflow:hidden;
+  padding-left:.34rem;
+  background:#fff;
+  margin-bottom:.1rem;
+}
+.BusinessList ul li{
+  padding:.27rem .5rem .27rem 0;
+  border-bottom:1px solid #d4d4d4;
+  list-style: none;
+}
+.BusinessList_t{
+  display: box;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: -o-box;
+}
+.BusinessList_t_l{
+  width:1rem;
+  height:1rem;
+  margin-right:.2rem;
+}
+.BusinessList_t_l img{
+  width:1rem;
+  height:1rem;
+}
+BusinessList_t_r{
+  width:5.5rem;
+}
+.BusinessList_t_r_t{
+  margin-top:.1rem;
+  width:5.5rem;
+  display: box;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: -o-box;
+  margin-bottom:.2rem;
+}
+.BusinessList_t_r_t span{
+  display:block;
+}
+.BusinessList_t_r_t span:nth-child(1){
+  box-flex: 1;
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -ms-box-flex: 1;
+  -o-box-flex: 1;
+}
+
+.BusinessList_b{
+  margin-top:.3rem;
+}
+.BusinessList_img{
+  height:auto;
+  overflow:hidden;
+  margin-top:.2rem;
+}
+.BusinessList_img div{
+  float:left;
+  width:1.45rem;
+  height:1.45rem;
+  margin-right:.28rem;
+  margin-bottom:.28rem;
+}
+.BusinessList_img div:nth-child(4n){
+  margin-right:0;
+}
+.BusinessList_img div img{
+  width:1.5rem;
+  height:1.5rem;
+}
+.LookAll{
+  width:1.95rem;
+  height:.58rem;
+  border:1px solid #c2c2c2;
+  border-radius:4px;
+  -webkit-border-radius:4px;
+  text-align:center;
+  line-height:.58rem;
+  font-size:.24rem;
+  margin:0 auto;
+  margin-top:.25rem;
+  margin-bottom:.3rem;
+}
+.HotelList_r_m_start {
+  display: box;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: -o-box;
+  margin-right:.1rem;
+}
+.HotelList_r_m_start p{
+  margin: 0;
+  margin-right: .06rem;
+}
+.HotelList_r_m_start p img{
+  width: .3rem;
+  height: .28rem;
+  vertical-align: bottom;
+}
+[v-cloak] {
+  display: none;
+}
+
+
+
+
+/***********详情***********/
+.AddMes {
+  display: box;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: -o-box;
+  border-bottom:.08rem  solid #f3f4f8;
+  padding: .37rem .39rem .27rem .31rem;
+  box-align: center;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-box-align: center;
+}
+
+.AddMes div:nth-child(1) {
+  margin-right: .13rem;
+}
+
+.AddMes div:nth-child(1) img {
+  width: .34rem;
+  height: .43rem;
+}
+
+.AddMes div:nth-child(3) img {
+  width: .36rem;
+  height:.36rem;
+  vertical-align: middle;
+  margin-top:.2rem;
+}
+
+.AddMes div:nth-child(2) {
+  box-flex: 1;
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -ms-box-flex: 1;
+  -o-box-flex: 1;
+  margin-right: 34rpx;
+  color: #353535;
+  font-size: .28rem;
+}
+
+.AddMes div:nth-child(3) {
+  width:.8rem;
+  height:.8rem;
+  text-align: center;
+}
+
+/**********营业时间**********/
+.MerchantInformation {
+  height: auto;
+  overflow: hidden;
+  border-bottom: .08rem solid #f3f4f8;
+}
+
+.BusinessHours {
+  padding: .3rem 0;
+  border-bottom: 1px solid #e0e0e0;
+  display: box;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: -o-box;
+}
+
+.BusinessHours-list {
+  display: box;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: -o-box;
+  width: 50%;
+  text-align: center;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-box-pack: center;
+}
+
+.BusinessHours-list img {
+  width: .5rem;
+  height: .5rem;
+  margin-right:.35rem;
+}
+
+.BusinessHours-list:first-child {
+  border-right: 1px solid #dbdbdb;
+}
+
+.BusinessHours-list-r {
+  font-size:.28rem;
+  color: #353535;
+  margin-top:.1rem;
+}
+
+.BusinessHours-list-r div:nth-child(2) {
+  color: #a7a7a7;
+  font-size:.26rem;
+}
+
+.equipment {
+  height: auto;
+  overflow: hidden;
+  padding: 0 .3rem;
+  background: #fff;
+}
+
+.equipment-tit {
+  font-size:.3rem;
+  color: #515151;
+  margin-top:.25rem;
+  margin-bottom:.08rem;
+}
+
+.equipment-ul {
+  height: auto;
+  overflow: hidden;
+}
+
+.equipment-li {
+  float: left;
+  height: .78rem;
+  line-height:.78rem;
+  font-size:.28rem;
+  margin-right:.7rem;
+  color: #4f4f4f;
+}
+
+.equipment-li:nth-child(3n) {
+  margin-right: 0;
+}
+
+.equipment-li img {
+  width:.56rem;
+  height:.56rem;
+  vertical-align: middle;
+  margin-right:.24rem;
+}
+
+.equipment-li span {
+  vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+

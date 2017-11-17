@@ -1,0 +1,127 @@
+.NoAdd{
+  margin-top: 2rem;
+  text-align: center;
+}
+.NoAdd img{
+  width:.71rem;
+  height:1.03rem;
+}
+.NoAdd div{
+  font-size:.28rem;
+  margin-top:.35rem;
+}
+/********列表********/
+.AddressList{
+  border-bottom: 1px solid #e7e7e7;
+  padding: .35rem .35rem 0 .35rem;
+}
+
+.AddressList-t{
+  border-bottom: 1px solid #eee;
+}
+.AddressList-t-contact{
+  display: box;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: -o-box;
+  color: #353535;
+  font-size:.3rem;
+  margin-bottom:.38rem;
+}
+.AddressList-t-contact div:nth-child(1){
+  box-flex: 1;
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -ms-box-flex: 1;
+  -o-box-flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.AddressList-t-add{
+  color: #353535;
+  font-size:.26rem;
+  margin-bottom:.25rem;
+}
+
+.AddressList-b{
+  display: box;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: -o-box;
+  height: .78rem;
+  box-align: center;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-box-align: center
+}
+.AddressList-b span{
+  vertical-align: middle;
+}
+.AddressList-b .Icon{
+  width:.35rem;
+  height:.35rem;
+  border: 1px solid #bdbdbd;
+  border-radius:.2rem;
+  -webkit-border-radius:.2rem;
+}
+
+.AddressList-b .IconChecked{
+  background: url("http://img.yunchuang365.com/miniAppImg/AddCheckd.png") no-repeat;
+  background-size:.4rem .4rem;
+  border: none;
+}
+
+.AddressList-b-check{
+  box-flex: 1;
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -ms-box-flex: 1;
+  -o-box-flex: 1;
+  font-size: .26rem;
+}
+.AddressList-b-check div{
+  display: inline-block;
+  vertical-align:middle;
+  margin-right:.1rem;
+}
+
+.AddressList-b-edit{
+  font-size:.26rem;
+  margin-left:.36rem;
+}
+.AddressList-b-edit img{
+  width:.38rem;
+  height:.38rem;
+  vertical-align: middle;
+  margin-right:.15rem;
+}
+.AddressList-b-edit span{
+  vertical-align: middle;
+}
+.AddressList-b-del{
+  font-size:.26rem;
+  margin-left:.36rem;
+}
+.AddressList-b-del img{
+  width:.36rem;
+  height:.4rem;
+  vertical-align: middle;
+  margin-right:.15rem;
+}
+.AddressList-b-del span{
+  vertical-align: middle;
+}
+.NewAdd{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height:.9rem;
+  background: #06c1ac;
+  color: #fff;
+  font-size:.36rem;
+  border-radius: 0%;
+  -webkit-border-radius: 0%;
+}
